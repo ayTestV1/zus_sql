@@ -68,3 +68,22 @@ INSERT INTO food_link_food_symbol (
     update_at)
 VALUES (
     1, 1, now(), now());
+
+
+
+
+INSERT INTO food (
+    my_name, 
+    picName,
+    food_desc,
+    display_order,
+    category_id, 
+    create_at, 
+    update_at)
+VALUES (
+    'Keto Black', 
+    'pic1', 
+    'food desc',
+    1, 
+    1,
+    now(), now());
