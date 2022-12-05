@@ -1,0 +1,18 @@
+
+//start mysql in window local
+
+->open task manager
+-> click "service" tab 
+-> serach Mysql
+-> right click and select "start"
+-> open cmd, type "mysql -u root -p" (password is "root")
+-> done
+
+
+
+
+//command
+SHOW DATABASES;
+
+CREATE DATABASE zus_db;
+
